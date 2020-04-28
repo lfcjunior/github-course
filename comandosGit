@@ -1,0 +1,28 @@
+git init = inicializar o repositorio na pasta que foi digitado o comando
+git status =  reportar como está o repositorio
+git add = adcionar ao repositorio para ficar visivel, pronto para ser commitado
+git diff = mostrar as diferenças, antes da adição
+git commit -m "Mensagem" = commitar com mensagem "Mensagem"
+git log = mostrra o log completo
+git log --decorate = mais completo ainda
+git log --author="Luiz" = lista todos os logs de quem tem nome de Luiz
+git shortlog = autores e quantos commmits fizram
+git shortlog -sn = autores e quantos commmits fizram
+git log --graph = log graficamente
+git show "hash key" = mostra as mudanças que o commit fez
+git diff --name-only = mostrar apenas os nomes dos arquivos com diferenças
+git checkout [nomeDoArquivo] = retornar versão para antes da edição, não commitados
+git reset HEAD [nomeDoArquivo] = volta as alterações que foram adicionadas (ainda não commitadas)
+git commit -am "Mensagem" = adicionar e já commitar com mensagem "Mensagem"
+git reset --soft [hash] = vai matar o último commit, mas a modificação já estará em staged pronta para commitar de novo
+git reset --mixed [hash] = vai matar o último commit, mas a modificação terá que ser adicionada e commitadas
+git reset --hard [hash] = vai matar o último commit, apagando todos os rastros
+git remote add origin [endereco do repositorio no git]
+git remote = mostra o nome do repositorio
+git remote -v = mostra o endereço
+git push -u origin master = envia as modificações locais para o repositorio remoto pela primeira vez
+git push origin master = envia nas próximas vezes
+git checkout -b [nomeDoBranch] = criação de branch
+git branch = mostra os branchs e o atual em asterisco
+git checkout [nomeDoBranch] = vai para o branch que se quer
+git branch -D [nomeDoBranch] = deletar branch
