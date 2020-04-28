@@ -26,3 +26,5 @@ git checkout -b [nomeDoBranch] = criação de branch
 git branch = mostra os branchs e o atual em asterisco
 git checkout [nomeDoBranch] = vai para o branch que se quer
 git branch -D [nomeDoBranch] = deletar branch
+git tag -a [nomeDaTag] -m "Mensagem" = criar tag nomeDaTag com uma mensagem Mensagem
+git push origin master --tags =  realizar o push levando as tags junto
